@@ -1,6 +1,7 @@
 <div class="container">
 <p class="lead">
-  {{contatto.getNomeCompleto()}}
+  {{contatto.getNomeCompleto()}}  
+<img class="stella" src="https://cdn.icon-icons.com/icons2/1077/PNG/512/star_77949.png";
 </p>
 <div class="row">
   <div class="col-sm-3">
@@ -8,6 +9,34 @@
   </div>
 <div class="col-sm-9">
   <input type"text" [(ngModel)] = "contatto.nome">
+</div>
+<div class="row">
+  <div class="col-sm-3">
+    <p>Cognome:</p>
+  </div>
+<div class="col-sm-9">
+  <input type"text" [(ngModel)] = "contatto.cognome">
+</div>
+<div class="row">
+  <div class="col-sm-3">
+    <p>Mail:</p>
+  </div>
+<div class="col-sm-9">
+  <input type"text" [(ngModel)] = "contatto.mail">
+</div>
+<div class="row">
+  <div class="col-sm-3">
+    <p>Cellulare:</p>
+  </div>
+<div class="col-sm-9">
+  <input type"text" [(ngModel)] = "contatto.cell">
+</div>
+<div class="row">
+  <div class="col-sm-3">
+    <p>Stelle:</p>
+  </div>
+<div class="col-sm-9">
+  <input type"text" [(ngModel)] = "contatto.nrStelle">
 </div>
 </div>
 </div>
