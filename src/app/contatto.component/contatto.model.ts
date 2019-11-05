@@ -17,4 +17,12 @@ class Contatto {
     return this.nome + ' ' + this.cognome;
 
   }
+
+  isPreferito(){
+    return this.nStelle == 5;
+  }
+
+  setPreferito(){
+    this.nStelle=5;
+  }
 }

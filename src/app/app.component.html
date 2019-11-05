@@ -1,2 +1,28 @@
 <h1> Agenda </h1>
-<app-contatto></app-contatto>
+<h4 [style.color]="colore"> {{name + ' ' + surname}}</h4>
+<h4> Nome: </h4>
+<input type="text" [(ngModel)] = "name">
+<h4> Cognome </h4>
+<input type="text" [(ngModel)] = "surname">
+<h4> Mail </h4>
+<input type="text" [(ngModel)] = "mail">
+<h4> Cellulare </h4>
+<input type="text" [(ngModel)] = "mail">
+<h4> Stelle </h4>
+<input type="text" [(ngModel)] = "mail">
+
+<table>
+  <tr>
+    <td>Name: </td>
+    <td>{{name}}</td>
+  </tr>
+  <tr>
+    <td>Surname: </td>
+    <td>{{surname}}</td>
+  </tr>
+  <tr>
+    <td>Mail: </td>
+    <td>{{mail}}</td>
+  </tr>
+</table>
+

@@ -11,3 +11,7 @@ export class AppComponent  {
   mail = 'massimiliano.pisoni@marconirovereto.it';
   colore: string = 'green';
 }
+
+export class ContattoComponen {
+  contatto: Contatto = new Contatto('Max',)
+}

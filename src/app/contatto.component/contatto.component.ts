@@ -10,6 +10,8 @@ import { Component } from '@angular/core';
 
 export class ContattoComponent {
   contatto: Contatto = new Contatto('Max', 'Pisoni', 'max.pisoni@gmail.com','123456789', 5); 
-
+  setTextColor(){
+    return this.contatto.isPreferito()? "red":"black";
+  }
 
 }
